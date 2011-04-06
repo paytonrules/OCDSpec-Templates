@@ -10,6 +10,28 @@
 	<true/>
 	<key>Definitions</key>
 	<dict>
+		<key>AppDelegate.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>AppDelegate</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/AppDelegate/AppDelegate.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>AppDelegate.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>AppDelegate</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/AppDelegate/AppDelegate.m</string>
+		</dict>
 		<key>Info.plist</key>
 		<dict>
 			<key>Group</key>
@@ -18,6 +40,13 @@
 			<string>Info.plist</string>
 			<key>TargetIndices</key>
 			<array/>
+		</dict>
+		<key>main.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>main.m</string>
 		</dict>
 		<key>Prefix.pch</key>
 		<dict>
@@ -28,51 +57,37 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>main.m</key>
+		<key>TestVC.h</key>
 		<dict>
 			<key>Group</key>
-			<string>Supporting Files</string>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+			</array>
 			<key>Path</key>
-			<string>main.m</string>
-		</dict>	
-		<key>AppDelegate/AppDelegate.h</key>
-		<dict>
-			<key>Group</key>
-			<string>AppDelegate</string>
-			<key>Path</key>
-			<string>AppDelegate/AppDelegate.h</string>
+			<string>Classes/TestVC/TestVC.h</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>AppDelegate/AppDelegate.m</key>
+		<key>TestVC.m</key>
 		<dict>
 			<key>Group</key>
-			<string>AppDelegate</string>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+			</array>
 			<key>Path</key>
-			<string>AppDelegate/AppDelegate.m</string>
+			<string>Classes/TestVC/TestVC.m</string>
 		</dict>
-		<key>TestVC/TestVC.h</key>
+		<key>TestVC.xib</key>
 		<dict>
 			<key>Group</key>
-			<string>TestVC</string>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+			</array>
 			<key>Path</key>
-			<string>TestVC/TestVC.h</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>TestVC/TestVC.m</key>
-		<dict>
-			<key>Group</key>
-			<string>TestVC</string>
-			<key>Path</key>
-			<string>TestVC/TestVC.m</string>
-		</dict>
-		<key>TestVC/TestVC.xib</key>
-		<dict>
-			<key>Group</key>
-			<string>TestVC</string>
-			<key>Path</key>
-			<string>TestVC/TestVC.xib</string>
+			<string>Classes/TestVC/TestVC.xib</string>
 		</dict>
 	</dict>
 	<key>Description</key>
@@ -86,11 +101,11 @@
 		<string>Info.plist</string>
 		<string>Prefix.pch</string>
 		<string>main.m</string>
-		<string>AppDelegate/AppDelegate.h</string>
-		<string>AppDelegate/AppDelegate.m</string>
-		<string>TestVC/TestVC.h</string>
-		<string>TestVC/TestVC.m</string>
-		<string>TestVC/TestVC.xib</string>
+		<string>AppDelegate.h</string>
+		<string>AppDelegate.m</string>
+		<string>TestVC.h</string>
+		<string>TestVC.m</string>
+		<string>TestVC.xib</string>
 	</array>
 </dict>
 </plist>
