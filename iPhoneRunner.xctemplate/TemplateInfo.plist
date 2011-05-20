@@ -14,8 +14,7 @@
       <dict>
         <key>Group</key>
         <array>
-          <string>Classes</string>
-          <string>OCDSpecDescription</string>
+          <string>OCDSpec</string>
         </array>
         <key>Path</key>
         <string>Classes/OCDSpec/OCDSpecDescription.m</string>
@@ -24,8 +23,7 @@
       <dict>
         <key>Group</key>
         <array>
-          <string>Classes</string>
-          <string>OCDSpecDescription</string>
+          <string>OCDSpec</string>
         </array>
         <key>Path</key>
         <string>Classes/OCDSpec/OCDSpecDescription.h</string>
@@ -36,8 +34,7 @@
       <dict>
         <key>Group</key>
         <array>
-          <string>Classes</string>
-          <string>OCDSpecDescriptionRunner</string>
+          <string>OCDSpec</string>
         </array>
         <key>Path</key>
         <string>Classes/OCDSpec/OCDSpecDescriptionRunner.m</string>
@@ -46,18 +43,37 @@
       <dict>
         <key>Group</key>
         <array>
-          <string>Classes</string>
-          <string>OCDSpecDescriptionRunner</string>
+          <string>OCDSpec</string>
         </array>
         <key>Path</key>
         <string>Classes/OCDSpec/OCDSpecDescriptionRunner.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>Classes/OCDSpec/OCDSpecExample.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecExample.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecExample.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecExample.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>unitTestMain.m</key>
       <dict>
         <key>Group</key>
-        <string>Supporting Files</string>
+        <string>OCDSpec</string>
         <key>Path</key>
         <string>unitTestMain.m</string>
       </dict>
@@ -75,6 +91,8 @@
       <string>Classes/OCDSpec/OCDSpecDescription.m</string>
       <string>Classes/OCDSpec/OCDSpecDescriptionRunner.h</string>
       <string>Classes/OCDSpec/OCDSpecDescriptionRunner.m</string>
+      <string>Classes/OCDSpec/OCDSpecExample.h</string>
+      <string>Classes/OCDSpec/OCDSpecExample.m</string>
     </array>
     <key>Targets</key>
     <array>

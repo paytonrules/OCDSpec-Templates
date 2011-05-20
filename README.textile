@@ -1,6 +1,6 @@
 h2. OCDSpec Templates for Projects and Targets
 
-These templates are meant to make it easy to get started using and running OCDSpec Specs
+These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: github.com/paytonrules/OCDSpec.
 
 h2.  Installation
 
