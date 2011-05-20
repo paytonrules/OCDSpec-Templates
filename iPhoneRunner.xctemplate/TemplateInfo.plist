@@ -10,25 +10,25 @@
     <true/>
     <key>Definitions</key>
     <dict>
-      <key>Classes/AppDelegate/AppDelegate.m</key>
+      <key>Classes/OCDSpec/OCDSpecDescription.m</key>
       <dict>
         <key>Group</key>
         <array>
           <string>Classes</string>
-          <string>AppDelegate</string>
+          <string>OCDSpecDescription</string>
         </array>
         <key>Path</key>
-        <string>Classes/AppDelegate/AppDelegate.m</string>
+        <string>Classes/OCDSpec/OCDSpecDescription.m</string>
       </dict>
-      <key>Classes/AppDelegate/AppDelegate.h</key>
+      <key>Classes/OCDSpec/OCDSpecDescription.h</key>
       <dict>
         <key>Group</key>
         <array>
           <string>Classes</string>
-          <string>AppDelegate</string>
+          <string>OCDSpecDescription</string>
         </array>
         <key>Path</key>
-        <string>Classes/AppDelegate/AppDelegate.h</string>
+        <string>Classes/OCDSpec/OCDSpecDescription.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -57,39 +57,6 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>Classes/TestVC/TestVC.h</key>
-      <dict>
-        <key>Group</key>
-        <array>
-          <string>Classes</string>
-          <string>TestVC</string>
-        </array>
-        <key>Path</key>
-        <string>Classes/TestVC/TestVC.h</string>
-        <key>TargetIndices</key>
-        <array/>
-      </dict>
-      <key>Classes/TestVC/TestVC.m</key>
-      <dict>
-        <key>Group</key>
-        <array>
-          <string>Classes</string>
-          <string>TestVC</string>
-        </array>
-        <key>Path</key>
-        <string>Classes/TestVC/TestVC.m</string>
-      </dict>
-      <key>Classes/TestVC/Resources/TestVC.xib</key>
-      <dict>
-        <key>Group</key>
-        <array>
-          <string>Classes</string>
-          <string>TestVC</string>
-          <string>Resources</string>
-        </array>
-        <key>Path</key>
-        <string>Classes/TestVC/Resources/TestVC.xib</string>
-      </dict>
     </dict>
     <key>Description</key>
     <string>This template provides a command line runner for an iPhone app using OCSpec.  Add this as a target to an existing iPhone application.  Then add any OCDSpec's to this target, along with any actual files needed for testing.</string>
@@ -102,11 +69,8 @@
       <string>Info.plist</string>
       <string>Prefix.pch</string>
       <string>main.m</string>
-      <string>Classes/AppDelegate/AppDelegate.h</string>
-      <string>Classes/AppDelegate/AppDelegate.m</string>
-      <string>Classes/TestVC/TestVC.h</string>
-      <string>Classes/TestVC/TestVC.m</string>
-      <string>Classes/TestVC/Resources/TestVC.xib</string>
+      <string>Classes/OCDSpec/OCDSpecDescription.h</string>
+      <string>Classes/OCDSpec/OCDSpecDescription.m</string>
     </array>
     <key>Targets</key>
     <array>
