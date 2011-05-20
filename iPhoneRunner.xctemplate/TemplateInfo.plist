@@ -10,6 +10,30 @@
     <true/>
     <key>Definitions</key>
     <dict>
+      <key>Classes/OCDSpec/Protocols/DescriptionRunner.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Protocols</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/Protocols/DescriptionRunner.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>Classes/OCDSpec/Protocols/Example.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Protocols</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/Protocols/Example.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>Classes/OCDSpec/OCDSpecDescription.m</key>
       <dict>
         <key>Group</key>
@@ -70,6 +94,46 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>Classes/OCDSpec/OCDSpecExpectation.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecExpectation.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecExpectation.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecExpectation.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecFail.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecFail.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecFail.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecFail.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>unitTestMain.m</key>
       <dict>
         <key>Group</key>
@@ -86,13 +150,19 @@
     <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
     <key>Nodes</key>
     <array>
-      <string>unitTestMain.m</string>
+      <string>Classes/OCDSpec/Protocols/DescriptionRunner.h</string>
+      <string>Classes/OCDSpec/Protocols/Example.h</string>
       <string>Classes/OCDSpec/OCDSpecDescription.h</string>
       <string>Classes/OCDSpec/OCDSpecDescription.m</string>
       <string>Classes/OCDSpec/OCDSpecDescriptionRunner.h</string>
       <string>Classes/OCDSpec/OCDSpecDescriptionRunner.m</string>
       <string>Classes/OCDSpec/OCDSpecExample.h</string>
       <string>Classes/OCDSpec/OCDSpecExample.m</string>
+      <string>Classes/OCDSpec/OCDSpecExpectation.h</string>
+      <string>Classes/OCDSpec/OCDSpecExpectation.m</string>
+      <string>Classes/OCDSpec/OCDSpecFail.h</string>
+      <string>Classes/OCDSpec/OCDSpecFail.m</string>
+      <string>unitTestMain.m</string>
     </array>
     <key>Targets</key>
     <array>
