@@ -1,4 +1,5 @@
 h1. OCDSpec Templates for Projects and Targets
+
 These templates are meant to make it easy to get started using and running OCDSpec Specs
 
 h1.  Installation
@@ -25,6 +26,7 @@ h2. Cocoa
 h2. Creating Tests
 
 h1.  Special Thanks
+
 This repo is forked from borealkiss/Minimal-Template, who's work documenting the new XCode 4 template format was invaluable. 
 
 See http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/ if you are interested in creating your own.
