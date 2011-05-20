@@ -41,12 +41,12 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>main.m</key>
+      <key>unitTestMain.m</key>
       <dict>
         <key>Group</key>
         <string>Supporting Files</string>
         <key>Path</key>
-        <string>main.m</string>
+        <string>unitTestMain.m</string>
       </dict>
       <key>Prefix.pch</key>
       <dict>
@@ -68,7 +68,7 @@
     <array>
       <string>Info.plist</string>
       <string>Prefix.pch</string>
-      <string>main.m</string>
+      <string>unitTestMain.m</string>
       <string>Classes/OCDSpec/OCDSpecDescription.h</string>
       <string>Classes/OCDSpec/OCDSpecDescription.m</string>
     </array>
