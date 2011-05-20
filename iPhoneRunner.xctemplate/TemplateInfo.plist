@@ -54,30 +54,12 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>Info.plist</key>
-      <dict>
-        <key>Group</key>
-        <string>Supporting Files</string>
-        <key>Path</key>
-        <string>Info.plist</string>
-        <key>TargetIndices</key>
-        <array/>
-      </dict>
       <key>unitTestMain.m</key>
       <dict>
         <key>Group</key>
         <string>Supporting Files</string>
         <key>Path</key>
         <string>unitTestMain.m</string>
-      </dict>
-      <key>Prefix.pch</key>
-      <dict>
-        <key>Group</key>
-        <string>Supporting Files</string>
-        <key>Path</key>
-        <string>Prefix.pch</string>
-        <key>TargetIndices</key>
-        <array/>
       </dict>
     </dict>
     <key>Description</key>
@@ -88,8 +70,6 @@
     <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
     <key>Nodes</key>
     <array>
-      <string>Info.plist</string>
-      <string>Prefix.pch</string>
       <string>unitTestMain.m</string>
       <string>Classes/OCDSpec/OCDSpecDescription.h</string>
       <string>Classes/OCDSpec/OCDSpecDescription.m</string>
