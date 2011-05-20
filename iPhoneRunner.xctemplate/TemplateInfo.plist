@@ -32,6 +32,28 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>Classes/OCDSpec/OCDSpecDescriptionRunner.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>Classes</string>
+          <string>OCDSpecDescriptionRunner</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecDescriptionRunner.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecDescriptionRunner.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>Classes</string>
+          <string>OCDSpecDescriptionRunner</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecDescriptionRunner.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>Info.plist</key>
       <dict>
         <key>Group</key>
@@ -71,6 +93,8 @@
       <string>unitTestMain.m</string>
       <string>Classes/OCDSpec/OCDSpecDescription.h</string>
       <string>Classes/OCDSpec/OCDSpecDescription.m</string>
+      <string>Classes/OCDSpec/OCDSpecDescriptionRunner.h</string>
+      <string>Classes/OCDSpec/OCDSpecDescriptionRunner.m</string>
     </array>
     <key>Targets</key>
     <array>
