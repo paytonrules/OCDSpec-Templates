@@ -1,8 +1,8 @@
-h1. OCDSpec Templates for Projects and Targets
+h2. OCDSpec Templates for Projects and Targets
 
 These templates are meant to make it easy to get started using and running OCDSpec Specs
 
-h1.  Installation
+h2.  Installation
 
 The simplest thing is to use git to install them directly into the user template directory. 
 
@@ -11,7 +11,7 @@ git clone git://github.com/paytonrules/OCDSpec-Templates.git
 
 This will create a directory called OCDSpec-Templates in your Templates directory.
 
-h1. Using
+h2. Using
 
 This creates three templates:
 
@@ -19,18 +19,18 @@ This creates three templates:
 * A target/project for running Unit Tests in a Cocoa app
 * A file template for creating tests. 
 
-h2. iPhone
+h3. iPhone
 
-h2. Cocoa
+h3. Cocoa
 
-h2. Creating Tests
+h3. Creating Tests
 
-h1.  Special Thanks
+h2.  Special Thanks
 
 This repo is forked from borealkiss/Minimal-Template, who's work documenting the new XCode 4 template format was invaluable. 
 
 See http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/ if you are interested in creating your own.
 
-h1. License
+h2. License
 
 OCDSpec Templates are provided under the terms of "the MIT license":http://www.opensource.org/licenses/mit-license.php.
