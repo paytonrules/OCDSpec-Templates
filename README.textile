@@ -1,34 +1,34 @@
-h1. Minimal Template for Xcode 4
+h1. OCDSpec Templates for Projects and Targets
+These templates are meant to make it easy to get started using and running OCDSpec Specs
 
-A minimal iPhone project template for Xcode 4, creating a starting point of any iPhone application. Specifically, 
+h1.  Installation
 
-* No definitions of files or functions inside abstract templates, enabling you to easily parse and customize the template.
-* No unit test options.
-* No family selections for iPad or universal applications. 
+The simplest thing is to use git to install them directly into the user template directory. 
 
-h2. How to use
+Navigate to ~/Library/Developer/Xcode/Templates (if the Templates directory does not exist, crate it)
+git clone git://github.com/paytonrules/OCDSpec-Templates.git
 
-* Place the folder to the following directory. If the Templates directory does not exist create it:
+This will create a directory called OCDSpec-Templates in your Templates directory.
 
-<pre>
-~/Library/Developer/Xcode/Templates/
-</pre>
+h1. Using
 
-* Create a new project from Xcode 4. Select the template from the iOS pane.
+This creates three templates:
 
-h2. How to customize
+* A target/project for running Unit Tests in an iPhone app
+* A target/project for running Unit Tests in a Cocoa app
+* A file template for creating tests. 
 
-To customize, follow the article below (read it carefully).
+h2. iPhone
 
-h2. Related articles
+h2. Cocoa
 
-* "A minimal project template for Xcode 4":http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/
+h2. Creating Tests
 
-h2. Contact
+h1.  Special Thanks
+This repo is forked from borealkiss/Minimal-Template, who's work documenting the new XCode 4 template format was invaluable. 
 
-* "http://blog.boreal-kiss.net/":http://blog.boreal-kiss.net/
-* "http://twitter.com/borealkiss":http://twitter.com/borealkiss
+See http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/ if you are interested in creating your own.
 
-h2. License
+h1. License
 
-Minimal Template is provided under the terms of "the MIT license":http://www.opensource.org/licenses/mit-license.php.
+OCDSpec Templates are provided under the terms of "the MIT license":http://www.opensource.org/licenses/mit-license.php.
