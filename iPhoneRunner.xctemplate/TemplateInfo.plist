@@ -10,7 +10,7 @@
     <true/>
     <key>Definitions</key>
     <dict>
-     <key>Classes/OCDSpec/Protocols/DescriptionRunner.h</key>
+      <key>Classes/OCDSpec/Protocols/DescriptionRunner.h</key>
       <dict>
         <key>Group</key>
         <array>
@@ -181,6 +181,13 @@
         <key>Path</key>
         <string>unitTestMain.m</string>
       </dict>
+      <key>RunIPhoneUnitTest.sh</key>
+      <dict>
+        <key>Group</key>
+        <string>OCDSpec</string>
+        <key>Path</key>
+        <string>RunIPhoneUnitTest.sh</string>
+      </dict>
       <key>OCDSpec-Prefix.pch</key>
       <dict>
         <key>Group</key>
@@ -214,6 +221,7 @@
       <string>Classes/OCDSpec/OCDSpecSharedResults.h</string>
       <string>Classes/OCDSpec/OCDSpecSharedResults.m</string>
       <string>unitTestMain.m</string>
+      <string>RunIPhoneUnitTest.sh</string>
       <string>OCDSpec-Prefix.pch</string>
     </array>
     <key>Targets</key>
@@ -230,6 +238,18 @@
           <key>GCC_PREFIX_HEADER</key>
           <string>${TARGET_NAME}/OCDSpec-Prefix.pch</string>
         </dict>
+        <key>BuildPhases</key>
+        <array>
+          <dict>
+            <key>Class</key>
+            <string>ShellScript</string>
+            <key>ShellPath</key>
+            <string>/bin/sh</string>
+            <key>ShellScript</key>
+            <string>chmod +x ${SOURCE_ROOT}/${TARGET_NAME}/RunIPhoneUnitTest.sh
+            ${SOURCE_ROOT}/${TARGET_NAME}/RunIPhoneUnitTest.sh</string>
+          </dict>
+        </array>
       </dict>
     </array>
   </dict>
