@@ -10,7 +10,7 @@
     <true/>
     <key>Definitions</key>
     <dict>
-      <key>Classes/OCDSpec/Protocols/DescriptionRunner.h</key>
+     <key>Classes/OCDSpec/Protocols/DescriptionRunner.h</key>
       <dict>
         <key>Group</key>
         <array>
@@ -181,6 +181,13 @@
         <key>Path</key>
         <string>unitTestMain.m</string>
       </dict>
+      <key>OCDSpec-Prefix.pch</key>
+      <dict>
+        <key>Group</key>
+        <string>OCDSpec</string>
+        <key>Path</key>
+        <string>OCDSpec-Prefix.pch</string>
+      </dict>
     </dict>
     <key>Description</key>
     <string>This template provides a command line runner for an iPhone app using OCSpec.  Add this as a target to an existing iPhone application.  Then add any OCDSpec's to this target, along with any actual files needed for testing.</string>
@@ -207,6 +214,7 @@
       <string>Classes/OCDSpec/OCDSpecSharedResults.h</string>
       <string>Classes/OCDSpec/OCDSpecSharedResults.m</string>
       <string>unitTestMain.m</string>
+      <string>OCDSpec-Prefix.pch</string>
     </array>
     <key>Targets</key>
     <array>
@@ -215,10 +223,12 @@
         <dict>
           <key>OTHER_LDFLAGS</key>
           <string>-ObjC -all_load</string>
-          <key>USER_HEADER_SEARCH_PATHS</key>
-          <string>$(BUILT_PRODUCTS_DIR)/usr/local/include</string>
+          <key>HEADER_SEARCH_PATHS</key>
+          <string>${SOURCE_ROOT}/${TARGET_NAME}/Classes</string>
           <key>INFOPLIST_FILE</key>
-          <string>OCDSpec/OCDSpecUnitTests-Info.plist</string>
+          <string/>
+          <key>GCC_PREFIX_HEADER</key>
+          <string>${TARGET_NAME}/OCDSpec-Prefix.pch</string>
         </dict>
       </dict>
     </array>
