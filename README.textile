@@ -1,29 +1,35 @@
 h2. OCDSpec Templates for Projects and Targets
 
-These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: github.com/paytonrules/OCDSpec.
+These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: http://github.com/paytonrules/OCDSpec.
 
 h2.  Installation
 
 The simplest thing is to use git to install them directly into the user template directory. 
 
-Navigate to ~/Library/Developer/Xcode/Templates (if the Templates directory does not exist, crate it)
-git clone git://github.com/paytonrules/OCDSpec-Templates.git
+Navigate to ~/Library/Developer/Xcode/Templates (if the Templates directory does not exist, create it)
+git clone git://github.com/paytonrules/OCDSpec-Templates.git.  
 
-This will create a directory called OCDSpec-Templates in your Templates directory.
+This will create a directory called OCDSpec-Templates in your Templates directory.  In it run git submodule init and git submodule update to get OCDSpec.
 
 h2. Using
 
-This creates three templates:
-
-* A target/project for running Unit Tests in an iPhone app
-* A target/project for running Unit Tests in a Cocoa app
-* A file template for creating tests. 
+This currently creates one template, A target project for running Unit Tests in an iPhone app.  Soon it will have a mac template and a file template for spec files.
 
 h3. iPhone
 
+After creating your application go to the build targets page and choose Add Target.  You will see an option for the iPhone Runner - add it. 
+
+https://skitch.com/paytonrules/fe6n9/xcode
+
+When you build that project you should see "build succeeded".  You can now begin adding tests.  Use http://github.com/paytonrules/OCDSpec for how to get started with OCDSpec.
+
 h3. Cocoa
 
+Coming very soon.
+
 h3. Creating Tests
+
+Coming very soon.
 
 h2.  Special Thanks
 
@@ -34,3 +40,5 @@ See http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-
 h2. License
 
 OCDSpec Templates are provided under the terms of "the MIT license":http://www.opensource.org/licenses/mit-license.php.
+
+Copyright 2011 Eric Smith
