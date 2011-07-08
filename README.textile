@@ -1,6 +1,6 @@
 h2. OCDSpec Templates for Projects and Targets
 
-These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: http://github.com/paytonrules/OCDSpec.
+These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: <a href="http://github.com/paytonrules/OCDSpec"> the main repo</a>.
 
 h2.  Installation
 
@@ -19,7 +19,7 @@ h3. iPhone
 
 After creating your application go to the build targets page and choose Add Target.  You will see an option for the iPhone Runner - add it. 
 
-https://skitch.com/paytonrules/fe6n9/xcode
+<img src="https://skitch.com/paytonrules/fe6n9/xcode"/>
 
 When you build that project you should see "build succeeded".  You can now begin adding tests.  Use http://github.com/paytonrules/OCDSpec for how to get started with OCDSpec.
 
