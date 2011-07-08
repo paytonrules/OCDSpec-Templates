@@ -134,6 +134,46 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>Classes/OCDSpec/OCDSpecOutputter.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecOutputter.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecOutputter.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecOutputter.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecSharedResults.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecSharedResults.m</string>
+      </dict>
+      <key>Classes/OCDSpec/OCDSpecSharedResults.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>Classes/OCDSpec/OCDSpecSharedResults.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>unitTestMain.m</key>
       <dict>
         <key>Group</key>
@@ -162,6 +202,10 @@
       <string>Classes/OCDSpec/OCDSpecExpectation.m</string>
       <string>Classes/OCDSpec/OCDSpecFail.h</string>
       <string>Classes/OCDSpec/OCDSpecFail.m</string>
+      <string>Classes/OCDSpec/OCDSpecOutputter.h</string>
+      <string>Classes/OCDSpec/OCDSpecOutputter.m</string>
+      <string>Classes/OCDSpec/OCDSpecSharedResults.h</string>
+      <string>Classes/OCDSpec/OCDSpecSharedResults.m</string>
       <string>unitTestMain.m</string>
     </array>
     <key>Targets</key>
@@ -173,6 +217,8 @@
           <string>-ObjC -all_load</string>
           <key>USER_HEADER_SEARCH_PATHS</key>
           <string>$(BUILT_PRODUCTS_DIR)/usr/local/include</string>
+          <key>INFOPLIST_FILE</key>
+          <string>OCDSpec/OCDSpecUnitTests-Info.plist</string>
         </dict>
       </dict>
     </array>
