@@ -192,5 +192,19 @@
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.h</string>
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.m</string>
     </array>
+    <key>Targets</key>
+    <array>
+      <dict>
+        <key>SharedSettings</key>
+        <dict>
+          <key>OTHER_LDFLAGS</key>
+          <string>-ObjC -all_load</string>
+          <key>HEADER_SEARCH_PATHS</key>
+          <string>${SOURCE_ROOT}/${TARGET_NAME}/OCDSpec</string>
+          <key>INFOPLIST_FILE</key>
+          <string/>
+        </dict>
+      </dict>
+    </array>
   </dict>
 </plist>

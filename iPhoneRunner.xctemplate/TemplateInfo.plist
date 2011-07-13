@@ -56,12 +56,6 @@
       <dict>
         <key>SharedSettings</key>
         <dict>
-          <key>OTHER_LDFLAGS</key>
-          <string>-ObjC -all_load</string>
-          <key>HEADER_SEARCH_PATHS</key>
-          <string>${SOURCE_ROOT}/${TARGET_NAME}/OCDSpec</string>
-          <key>INFOPLIST_FILE</key>
-          <string/>
           <key>GCC_PREFIX_HEADER</key>
           <string>${TARGET_NAME}/OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
         </dict>
