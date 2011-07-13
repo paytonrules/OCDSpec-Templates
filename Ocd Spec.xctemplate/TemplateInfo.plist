@@ -191,9 +191,6 @@
       <string>OCDSpec/OCDSpec/OCDSpecOutputter.m</string>
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.h</string>
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.m</string>
-      <string>OCDSpec/OCDSpec/Programs/unitTestMain.m</string>
-      <string>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
-      <string>OCDSpec/OCDSpec/OCDSpec-Prefix.pch</string>
     </array>
   </dict>
 </plist>

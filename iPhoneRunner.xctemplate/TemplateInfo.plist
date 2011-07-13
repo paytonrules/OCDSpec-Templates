@@ -31,14 +31,20 @@
         <key>Path</key>
         <string>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
       </dict>
-      <key>OCDSpec/OCDSpec/OCDSpec-Prefix.pch</key>
+      <key>OCDSpec/OCDSpec/iPhone-Prefix.pch</key>
       <dict>
         <key>Group</key>
         <string>OCDSpec</string>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpec-Prefix.pch</string>
+        <string>OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
       </dict>
     </dict>
+    <key>Nodes</key>
+    <array>
+      <string>OCDSpec/OCDSpec/Programs/unitTestMain.m</string>
+      <string>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
+      <string>OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
+    </array>
     <key>Description</key>
     <string>This template provides a command line runner for an iPhone app using OCSpec.  Add this as a target to an existing iPhone application.  Then add any OCDSpec's to this target, along with any actual files needed for testing.</string>
     <key>Identifier</key>
@@ -57,7 +63,7 @@
           <key>INFOPLIST_FILE</key>
           <string/>
           <key>GCC_PREFIX_HEADER</key>
-          <string>${TARGET_NAME}/OCDSpec/OCDSpec/OCDSpec-Prefix.pch</string>
+          <string>${TARGET_NAME}/OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
         </dict>
         <key>BuildPhases</key>
         <array>
