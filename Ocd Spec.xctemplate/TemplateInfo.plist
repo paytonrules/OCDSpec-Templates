@@ -172,6 +172,83 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>OCDSpec/OCDSpec/VoidBlock.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/VoidBlock.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.m</string>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</string>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+          <string>Contract</string>
+        </array>
+        <key>Path</key>
+        <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</string>
+      </dict>
     </dict>
     <key>Nodes</key>
     <array>
@@ -191,6 +268,13 @@
       <string>OCDSpec/OCDSpec/OCDSpecOutputter.m</string>
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.h</string>
       <string>OCDSpec/OCDSpec/OCDSpecSharedResults.m</string>
+      <string>OCDSpec/OCDSpec/VoidBlock.h</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.h</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.m</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</string>
+      <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</string>
     </array>
     <key>Targets</key>
     <array>
