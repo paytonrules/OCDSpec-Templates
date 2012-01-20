@@ -1,6 +1,6 @@
 h2. OCDSpec Templates for Projects and Targets
 
-These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then manually install via the directions at: <a href="http://github.com/paytonrules/OCDSpec"> the main repo</a>.
+These templates are meant to make it easy to get started using and running OCDSpec Specs.  They are on the latest official release of OCDSpec.  If you wish to be on the bleeding edge, then you can manually install via the directions at: <a href="http://github.com/paytonrules/OCDSpec"> the main repo</a> but I don't recommend it.
 
 h2.  Installation
 
@@ -8,12 +8,17 @@ The simplest thing is to use git to install them directly into the user template
 
 Navigate to ~/Library/Developer/Xcode/Templates (if the Templates directory does not exist, create it)
 git clone git://github.com/paytonrules/OCDSpec-Templates.git.  
+git submodule init
+git submodule update
 
-This will create a directory called OCDSpec-Templates in your Templates directory.  In it run git submodule init and git submodule update to get OCDSpec.
+This will create a directory called OCDSpec-Templates in your Templates directory.
 
 h2. Using
 
-This currently creates one template, A target project for running Unit Tests in an iPhone app.  Soon it will have a mac template and a file template for spec files.
+Three templates are created at this time.  One for setting up a Mac Spec Runner target, an iPhone Spec Runner target, and finally one for easily creating a spec.  Each of these can be used the same as any normal XCode template. 
+
+
+
 
 h3. iPhone
 
