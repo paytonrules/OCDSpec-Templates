@@ -19,7 +19,7 @@
           <string>Programs</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Programs/unitTestMain.m</string>
+        <string>../../../OCDSpec/OCDSpec/Programs/unitTestMain.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</key>
       <dict>
@@ -29,14 +29,14 @@
           <string>Programs</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
+        <string>../../../OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
       </dict>
       <key>OCDSpec/OCDSpec/iPhone-Prefix.pch</key>
       <dict>
         <key>Group</key>
         <string>OCDSpec</string>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
+        <string>../../../OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
       </dict>
     </dict>
     <key>Nodes</key>

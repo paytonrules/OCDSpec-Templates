@@ -16,7 +16,7 @@
           <string>Protocols</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Protocols/DescriptionRunner.h</string>
+        <string>../../../OCDSpec/OCDSpec/Protocols/DescriptionRunner.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -28,7 +28,18 @@
           <string>Protocols</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Protocols/Example.h</string>
+        <string>../../../OCDSpec/OCDSpec/Protocols/Example.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>OCDSpec/OCDSpec/OCDSpec.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCDSpec</string>
+        </array>
+        <key>Path</key>
+        <string>../../../OCDSpec/OCDSpec/OCDSpec.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -39,7 +50,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecDescription.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecDescription.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecDescription.h</key>
       <dict>
@@ -48,7 +59,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecDescription.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecDescription.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -59,7 +70,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecDescriptionRunner.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecDescriptionRunner.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecDescriptionRunner.h</key>
       <dict>
@@ -68,7 +79,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecDescriptionRunner.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecDescriptionRunner.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -79,7 +90,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecExample.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecExample.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecExample.h</key>
       <dict>
@@ -88,7 +99,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecExample.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecExample.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -99,7 +110,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecExpectation.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecExpectation.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecExpectation.h</key>
       <dict>
@@ -108,7 +119,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecExpectation.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecExpectation.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -119,7 +130,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecFail.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecFail.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecFail.h</key>
       <dict>
@@ -128,7 +139,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecFail.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecFail.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -139,7 +150,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecOutputter.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecOutputter.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecOutputter.h</key>
       <dict>
@@ -148,7 +159,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecOutputter.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecOutputter.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -159,7 +170,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecSharedResults.m</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecSharedResults.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/OCDSpecSharedResults.h</key>
       <dict>
@@ -168,7 +179,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/OCDSpecSharedResults.h</string>
+        <string>../../../OCDSpec/OCDSpec/OCDSpecSharedResults.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -179,7 +190,7 @@
           <string>OCDSpec</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/VoidBlock.h</string>
+        <string>../../../OCDSpec/OCDSpec/VoidBlock.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -191,7 +202,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.h</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -203,7 +214,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.m</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecPreCondition.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</key>
       <dict>
@@ -213,7 +224,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -225,7 +236,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</string>
       </dict>
       <key>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</key>
       <dict>
@@ -235,7 +246,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -247,7 +258,7 @@
           <string>Contract</string>
         </array>
         <key>Path</key>
-        <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</string>
+        <string>../../../OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</string>
       </dict>
     </dict>
     <key>Nodes</key>
@@ -275,6 +286,7 @@
       <string>OCDSpec/OCDSpec/Contract/OCDSpecPostCondition.m</string>
       <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.m</string>
       <string>OCDSpec/OCDSpec/Contract/OCDSpecCondition.h</string>
+      <string>OCDSpec/OCDSpec/OCDSpec.h</string>
     </array>
     <key>Targets</key>
     <array>
