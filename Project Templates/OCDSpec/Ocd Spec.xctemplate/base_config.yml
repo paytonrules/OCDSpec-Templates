@@ -1,0 +1,11 @@
+identifier: com.paytonrules.ocdSpec
+project_root: OCDSpec
+included_dirs:
+  - OCDSpec
+excluded_files:
+  - iPhone-Prefix.pch
+  - OCDSpecOutputter+RedirectOutput.h
+  - OCDSpecOutputter+RedirectOutput.m
+  - macMain.m
+  - RunIPhoneUnitTest.sh
+  - unitTestMain.m
