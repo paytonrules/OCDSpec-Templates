@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require "yaml_file_template"
+require "file_template"
+require "file_template_exporter"
+require "rexml/document"
+
+# Export the plist
+yaml = File.read("Project Templates/OCDSpec/Ocd Spec.xctemplate/base_config.yml")
+file_template = YAMLFileTemplate.load_from_yaml(yaml)
+file_template_exporter = FileTemplateExporter.new(file_template)
+
+dom = REXML::Document.new(file_template_exporter.to_xml)
+
+# Exclude From Nodes/Array
+# Find the node list
+# exclude:
+# <string>OCDSpec/OCDSpec/iPhone-Prefix.pch</string>
+# <string>OCDSpec/OCDSpec/OCDSpecOutputter+RedirectOutput.h</string>
+# <string>OCDSpec/OCDSpec/OCDSpecOutputter+RedirectOutput.m</string>
+# <string>OCDSpec/OCDSpec/Programs/macMain.m</string>
+# <string>OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh</string>
+# <string>OCDSpec/OCDSpec/Programs/unitTestMain.m</string>
+#
+# Next find the keys for these files in the larger dictionary
+
+# Add some stuff - i.e. this, right after the Nodes list
+#    <key>Targets</key>
+#    <array>
+#      <dict>
+#        <key>SharedSettings</key>
+#        <dict>
+#          <key>HEADER_SEARCH_PATHS</key>
+#          <string>${SOURCE_ROOT}/${TARGET_NAME}/OCDSpec</string>
+#          <key>INFOPLIST_FILE</key>
+#          <string/>
+#        </dict>
+#      </dict>
+#    </array>
+# Write this to TemplateInfo.plist
